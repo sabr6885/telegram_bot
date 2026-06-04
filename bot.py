@@ -11,7 +11,7 @@ from threading import Thread
 import os
 
 # Render uchun web server
-web = Flask(name)
+web = Flask(__name__)
 
 @web.route("/")
 def home():

@@ -24,8 +24,8 @@ def run_web():
 Thread(target=run_web, daemon=True).start()
 
 # Maxfiy ma'lumotlar Render Environment'dan olinadi
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID"))
+BOT_TOKEN = os.getenv("7402905520:AAHuoRNz0WF_ge4mya6NR1NWjPvZ7GhOLP0")
+ADMIN_ID = int(os.getenv("7019715691"))
 
 reply_map = {}
 
